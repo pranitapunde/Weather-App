@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(./image/abstract-sky-clouds-sun-wallpaper-preview.jpg);
+    /* background-image: url(https:/source.unsplash.com/random/?nature); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.main-container h3 {
+    color: white;
+    font-size: 50px;
+    padding-bottom: 20px;
+    font-weight: 900;
+}
+
+.box {
+    width: 65%;
+    height: 82%;
+    background-color: #caf5f3;
+    border-radius: 20px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.search-box {
+    width: 100%;
+    height: 100px;
+    display: flex;
+     align-items: center;
+    justify-content: center; 
+    box-shadow: 5px 10px 18px #888888;
+    
+}
+
+.search-box input {
+    width: 400px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid black;
+    padding-left: 20px;
+    
+}
+.search-box button {
+    width: 50px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.card-c {
+    width: 100%;
+    height: 200px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.footer-one {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 5px 10px 18px #888888;
+    padding-top: 20px;
+}
+
+/* #box-1 {
+    width: 16%;
+    height: 150px;
+    border: 1px solid rgb(51, 206, 51);
+    border-radius: 20px;
+} */
+
+/* footer-last */
+.footer-two{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    
+}
+.left-F{
+    width:20%;
+    height: 120px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+.right-F{
+    width:80%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.man{
+    width: 15%;
+    height: 100%;
+     border-radius: 20px;
+     border: 1px solid white;
+    padding-top: 10px;
+}
+.tue{
+    width: 15%;
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding-top: 10px;
+
+}
+.wed{
+    width: 15%;
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding-top: 10px;
+
+
+}
+.thus{
+    width: 15%;
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding-top: 10px;
+
+
+}
+.fri{
+    width: 15%;
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding-top: 10px;
+}  
+
+@media only screen and (max-width: 768px) {
+
+   .main-container{
+    width: 100%;
+    height: auto;
+
+   }
+   .box{
+    width: 100%;
+    height: auto;
+   }
+   .main-container h3{
+    font-size: 30px;
+   }
+   .search-box{
+    width: 100%;
+    height: auto;
+   }
+   .search-box input{
+    width: 300px;
+    height: 30px;
+   }
+   .search-box button{
+    width:40px;
+    height: 30px;
+   }
+   .card-c {
+    width: 100%;
+    height: auto;
+   }
+   .footer-one{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    
+   }
+   .footer-two{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+   }
+   .right-F{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+   }
+   
+  }
